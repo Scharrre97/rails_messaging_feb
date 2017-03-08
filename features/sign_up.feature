@@ -16,6 +16,6 @@ Scenario:
 Scenario:
   Given I visit the index page
   And I click "Sign up"
-  And I fill in "Email" with "invalidemail"
+  And I fill in "Email" with "invalid email"
   And I click Create
   Then I should see "Email is invalid"
