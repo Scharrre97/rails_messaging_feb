@@ -6,8 +6,8 @@ Then(/^I should see "([^"]*)"$/) do |content|
   expect(page).to have_content content
 end
 
-Given(/^I click "([^"]*)"$/) do |arg1|
-  click_link_or_button arg1
+Given(/^I click "([^"]*)"$/) do |button|
+  click_link_or_button button
 end
 
 Then(/^I fill in "([^"]*)" with "([^"]*)"$/) do |title, content|
